@@ -1,0 +1,144 @@
+
+.container{
+    padding: 5vw;
+    display: flex;
+    align-items:center;
+    align-content: center;
+    margin: 0px auto;
+}
+
+.goods{
+    width: 500px;
+}
+
+.big_pic{
+    width:4000px;
+    height: 80vh;
+    border: 1px solid #7c7c7c;
+    align-items:center;
+}
+
+.right_content{
+    text-align: left;
+    line-height: 5vw;
+    margin-left: 10vw;
+    font-size: 1.5rem;
+    align-items:center;
+}
+
+input{
+    width:3vw;
+    height:3vw;
+    margin:0.5vw;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#remove,#add{
+    width:3vw;
+    margin: 0.5vw;
+}
+
+.quantity_ar{
+    display: flex;
+    align-items:center;
+}
+
+.text{
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+}
+
+button{
+    font-family: '微軟正黑體';
+    font-size: 1.5rem;
+    height: 8vh;
+    margin-top: 7vh;
+    margin-right: 1vw;
+    width: 15vw;
+}
+
+/* ----------------隱藏內建的增加減少鍵---------------- */
+.no-spinners {
+  -moz-appearance:textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* ----------------隱藏內建的增加減少鍵---------------- */
+
+/*-----------------------------------------rwd-----------------------------------------*/
+@media screen and (max-width: 400px){
+.container{
+    padding: 5vw auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0px auto;
+}
+
+.goods{
+    width:360px;
+    padding: 0px auto;
+    margin: 0px auto; 
+}
+
+.right_content{
+    margin: 0px auto;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+input{
+    font-size: 1rem;
+    width: 10vw;
+    height: 5vh;
+    border: 1px solid #7c7c7c;;
+}
+
+#remove,#add{
+    width: 5vw;
+    margin: 2vw;
+}
+
+.quantity_ar{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.text{
+    font-size: 1.5rem;
+    margin-bottom: 8vw;
+}
+
+button{
+    width:40vw;
+    font-size: 1rem;
+    margin-top:0;
+    /* height: 8vh;
+    margin-top: 7vh;
+    margin-right: 1vw;
+    width: 15vw; */
+}
+
+.btn{
+    display: flex;
+    /* margin-left: 2vw; */
+    margin-top: 5vh;
+}
+
+/* ----------------隱藏內建的增加減少鍵---------------- */
+.no-spinners {
+  -moz-appearance:textfield;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* ----------------隱藏內建的增加減少鍵---------------- */
+}

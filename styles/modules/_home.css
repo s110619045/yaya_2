@@ -1,0 +1,40 @@
+.bg1{
+    display: block;
+    width: 100%;
+}
+
+.bg2{
+    display: none;
+    width: 100%;
+}
+
+.text{
+    justify-content: center;
+}
+
+.head{
+    font-size: 3.5rem;
+}
+
+.subhead{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px){
+    .bg1{
+        display: none;
+    }
+
+    .bg2{
+        display: block;
+    }
+
+    .head{
+        font-size: 2.5rem;
+    }
+    
+    .subhead{
+        font-size: 1.2rem;
+    }
+    
+}

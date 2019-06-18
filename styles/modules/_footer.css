@@ -1,0 +1,22 @@
+.footer {
+   height: 5rem;
+   background-color: $color-primary;
+   grid-column: 1 / -1;
+   grid-row: footer-start / footer-end;
+   color: $color-black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+
+   @media (min-width: $bp-large) {
+      /* flex-direction: row; */
+      /* grid-column: 2 / -1; */
+   }
+
+   &__description {
+      margin: 0 2rem;
+      text-align: center;
+   }
+}
